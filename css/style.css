@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-image: linear-gradient(rgb(190, 151, 151),rgb(25, 19, 19));
+}
+.list{
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    padding: 1rem;
+}
+.mathinji{
+    display: flex;
+    position: relative;
+    place-content:center;
+}
+.collins{
+    rotate: -90deg;
+    border-radius: 15px;
+   position: absolute;
+   margin-top: -3rem;
+}
+.no{
+    display: flex;
+    position: relative;
+    place-content:center;
+    
+}
+.know{
+    position: absolute;
+    margin-top: 15rem;
+}
+.list{
+    font-family: "fogaza",cursive;
+}
+html{
+    height: 100%;
+    background-image: linear-gradient(gray,black);
+    background-repeat: no-repeat;
+}
+.mach{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.know{
+    background-image: linear-gradient(rgb(190, 151, 151),rgb(25, 19, 19));
+    border-radius: 15px;
+    left:8;
+    text-align: center;
+    max-width: 45%;
+}
+a:hover{
+    color: white;
+    background-color: black;
+}
+.foot{
+    width: 100%;
+    display: grid;
+    background-image:radial-gradient(brown,gray);
+    position: absolute;
+    bottom:0;
+    left:0;
+}
+.rt{
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+     font-style: italic;
+     position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.bt{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:black;
+}
+.mach{
+   font-family: 'Times New Roman', Times, serif;
+    color:rgb(12, 6, 0);
+}
+.projo{
+    margin-top: 5em;
+    text-align: center;
+    font-style: italic;
+}
+.container {
+    position: relative;
+    display: inline-block;
+   margin-top: 2rem;
+  }
+  
+  .htmlp {
+    color: yellow;
+    position: absolute;
+  }
+.pj{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.math{
+    position: absolute;
+    margin-left: 29%;
+    bottom:6rem;
+    max-width: 45%;
+    text-align: center;
+}
+.education{
+    width:15em;
+    max-height:max-content;
+    border: solid black;
+    border-radius: 15px;
+}
+.profile{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.log{
+    border-radius: 15px 15px 0px 0px;
+}
+.register{
+   position: absolute;
+   margin-top: 2%;
+   margin-left:25%;
+}
+.field{
+    border: 4px solid burlywood;
+    list-style: none;
+    margin-top: 1%;
+    margin-left: 0;
+    text-align: center;
+    background-image: radial-gradient(black,gray);
+}
+
+.submit{
+    border: 2px solid rgb(26, 16, 16);
+}
+button:hover{
+    color:chocolate;
+    background-color: chartreuse;
+}
+
+.org{
+    display: block;
+    position: absolute;
+    text-align: center;
+   color: darkolivegreen;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   bottom:5rem;
+}
+.ml{
+    position: absolute;
+    place-content: center;
+}
+
+.reg{
+   position: relative;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+.op{
+    width: 100%;
+    height: max-content;
+}

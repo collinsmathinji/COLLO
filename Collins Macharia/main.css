@@ -1,0 +1,39 @@
+
+body{
+  text-align: center;
+ 
+}
+a:focus{
+  display: inline;
+  color: whitesmoke;
+  background-color: #333;
+}
+a:hover{
+  color: whitesmoke;
+  background-color: #333;
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+}
+li a{
+ display:block;
+}
+li{
+  list-style-type:  none;
+  border-top: solid black;
+  text-align: center;
+  
+}
+ul{
+  align-items: center;
+  list-style-type: circle;
+list-style-position: inside;
+text-decoration: none;
+}
+
+}
+html{
+  background-color: blueviolet;
+  background-image: radial-gradient(black gray);
+}
