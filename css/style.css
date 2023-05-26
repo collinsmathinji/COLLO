@@ -7,7 +7,7 @@
     background-image: linear-gradient(rgb(190, 151, 151),rgb(25, 19, 19));
 }
 .list{
-    height: 4rem;
+    height: 3rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
