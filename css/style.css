@@ -52,7 +52,7 @@ html{
     border-radius: 15px;
     left:8;
     text-align: center;
-    max-width: 65%;
+    max-width: 25%;
 }
 a:hover{
     color: white;
@@ -104,17 +104,19 @@ a:hover{
     justify-content: space-evenly;
 }
 .math{
-    position: absolute;
-    margin-left: 29%;
-    bottom:6rem;
-    max-width: 45%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
 }
 .education{
     width:15em;
     max-height:max-content;
     border: solid black;
     border-radius: 15px;
+}
+.button{
+    
 }
 .profile{
     margin-top: 2rem;
@@ -169,4 +171,33 @@ button:hover{
 .op{
     width: 100%;
     height: max-content;
+}
+@media (max-width :768px) {
+    .profile{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .education{
+        margin-top: 20px;
+    }
+    .foot{
+        position: fixed;
+        width: 100%;
+    }
+    .pj{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .proji{
+        margin-top: 20px;
+    }
+    .math{
+        
+        margin-top: 30px;
+    }
+    .know{
+        max-width: 85%;
+    }
 }
