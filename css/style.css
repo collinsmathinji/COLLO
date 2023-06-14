@@ -6,6 +6,10 @@
 .header{
     background-image: linear-gradient(rgb(190, 151, 151),rgb(25, 19, 19));
 }
+.details{
+    background-image: linear-gradient(gray,black);
+    color: aquamarine;
+}
 .list{
     height: 4rem;
     display: flex;
@@ -104,7 +108,7 @@ a:hover{
     justify-content: space-evenly;
 }
 .math{
-    display: flex;
+    display:flex;
     justify-content: center;
     margin-top: 20px;
     align-items: center;
@@ -194,10 +198,22 @@ button:hover{
         margin-top: 20px;
     }
     .math{
-        
+        display: flex;
+        justify-content: center;
         margin-top: 30px;
     }
     .know{
         max-width: 85%;
+    }
+    .pj{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+}
+@media (max-width:326px) {
+    .pj{
+        display: flex;
+        justify-content: center;
     }
 }
